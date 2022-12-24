@@ -38,7 +38,7 @@ public class UserServiceImplement implements UserService{
                     resultSet.getString(4), resultSet.getString(5), resultSet.getString(6));
             result.add(UserMapper.toUserDTO(user));
         }
-        System.out.println(result.get(1).getName());
+        //System.out.println(result.get(1).getName());
         return result;
     }
 
